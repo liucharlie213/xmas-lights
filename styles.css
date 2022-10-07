@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: RGB(25, 21, 26);
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  color: white;
+
+}
+
+.interface {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#title {
+  font-size: 50px;
+  text-shadow: 0 0 15px white;  
+}
+
+button {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 17px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(68, 96, 180);
+  background-color: RGB(25, 21, 26);
+  margin-right: 15px;
+  transition: 0.3s
+}
+
+button:hover {
+  background-color: rgb(68, 96, 180);
+}
+
+.speed-select {
+  display: flex;
+  align-items: center;
+}
+
+#up-btn,
+#down-btn {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  background-color: rgb(35, 49, 105);
+  border-radius: 0px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#up-btn:hover,
+#down-btn:hover {
+  background-color: rgb(68, 96, 180);
+}
+
+#up-btn {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-right: 15px;
+}
+
+#down-btn {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+#speed-input {
+  width: 30px;
+  height: 24px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+#speed {
+  margin-right: 7px;
+  font-size: 17px;
+}
+
+
+ 
