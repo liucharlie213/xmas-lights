@@ -10,10 +10,6 @@ let speedNum = parseInt(inputEl.value);
 
 
 upBtn.addEventListener("click", function() {
-  // if(bulbsbulbs[i].style.animation == "none") {
-  //   console.log("hi")
-  // }
-  // let speedNum = parseInt(inputEl.value);
   if(speedNum < 5) {
     speedNum++;
     inputEl.value = speedNum.toString();
@@ -27,7 +23,6 @@ upBtn.addEventListener("click", function() {
 })
 
 downBtn.addEventListener("click", function() {
-  // let speedNum = parseInt(inputEl.value);
   if(speedNum > 1) {
     speedNum--;
     inputEl.value = speedNum.toString();
@@ -42,7 +37,6 @@ downBtn.addEventListener("click", function() {
 
 onBtn.addEventListener("click", function() {
   for (let i = 0; i < bulbs.length; i++){
-    // bulbs[i].style.animationName = "";
     bulbs[i].removeAttribute("style");
     bulbs[i].style.animationPlayState = "running";
     bulbs[i].style.animationDuration = speedNum.toString() + "s"; 
